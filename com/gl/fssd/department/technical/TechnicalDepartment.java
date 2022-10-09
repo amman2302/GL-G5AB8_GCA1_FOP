@@ -1,22 +1,22 @@
 package com.gl.fssd.department.technical;
-import com.gl.fssd.department.Department;
-public class TechnicalDepartment extends Department {
+import com.gl.fssd.department.SuperDepartment;
+public class TechnicalDepartment extends SuperDepartment {
     /**
     * The strDeptName to use to store the department name
     */
-    public String strDeptName = " Tech Department ";
+    private String strDeptName = " Tech Department ";
     /**
     * The strTodaysWork to use to store the todays work
     */
-    public String strTodaysWork = " Complete coding of module 1 ";
+    private String strTodaysWork = " Complete coding of module 1 ";
     /**
     * The strWorkDeadLine to use to store the work dead line 
     */
-    public String strWorkDeadLine = " Complete by EOD ";
+    private String strWorkDeadLine = " Complete by EOD ";
     /**
     * The strTechStackInfo to use to store the technical stack information
     */
-    public String strTechStackInfo = " core Java ";
+    private String strTechStackInfo = " core Java ";
     /** 
     * Class constructor.
     */
