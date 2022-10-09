@@ -1,20 +1,20 @@
 package com.gl.fssd.department.admin;
 
-import com.gl.fssd.department.Department;
+import com.gl.fssd.department.SuperDepartment;
 
-public class AdminDepartment extends Department {
+public class AdminDepartment extends SuperDepartment {
    /**
     * The strDeptName to use to store the department name
     */
-    public String strDeptName = " Admin Department ";
+    private String strDeptName = " Admin Department ";
     /**
     * The strTodaysWork to use to store the todays work
     */
-    public String strTodaysWork = " Complete your documents Submission ";
+    private String strTodaysWork = " Complete your documents Submission ";
     /**
     * The strWorkDeadLine to use to store the work dead line 
     */
-    public String strWorkDeadLine = " Complete by EOD ";
+    private String strWorkDeadLine = " Complete by EOD ";
     /** 
     * Class constructor.
     */
