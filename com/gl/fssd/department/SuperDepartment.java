@@ -2,33 +2,30 @@ package com.gl.fssd.department;
 /**
 * Department is the superclass for all departments, 
 * which allow all other department classes to extend 
-* @author      Ganesh Kumar B (ganesh.vinu@gmail.com)
+* @author      group - GL-G5AB8
 */
 public class  SuperDepartment {
     /**
     * The strDeptName to use to store the department name
     */
-    public String strDeptName = " Super Department ";
+    private String strDeptName = " Super Department ";
     /**
     * The strTodaysWork to use to store the todays work
     */
-    public String strTodaysWork = " No Work as of now ";
+    private String strTodaysWork = " No Work as of now ";
     /**
     * The strWorkDeadLine to use to store the work dead line 
     */
-    public String strWorkDeadLine = " Nil ";
+    private String strWorkDeadLine = " Nil ";
     /**
     * The strTodayAHoliday to use to store whether today is holiday or not
     */
-    public String strTodayAHoliday = " Today is not a holiday ";
+    private String strTodayAHoliday = " Today is not a holiday ";
     /** 
     * Class constructor.
     */
     public SuperDepartment(){
-        this.strDeptName = strDeptName;
-        this.strTodaysWork = strTodaysWork;
-        this.strWorkDeadLine = strWorkDeadLine;
-        this.strTodayAHoliday = strTodayAHoliday;
+  
     }//End of constructor
     /**
     * Returns a department name in string  that can then be used by caller to know the department name 
