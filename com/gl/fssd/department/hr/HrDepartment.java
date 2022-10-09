@@ -4,7 +4,7 @@ public class HrDepartment extends Department {
    /**
     * The strDeptName to use to store the department name
     */
-    public String strDeptName = " Hr Department ";
+    public String strDeptName = " HR Department ";
     /**
     * The strTodaysWork to use to store the todays work
     */
