@@ -1,22 +1,22 @@
 package com.gl.fssd.department.hr;
-import com.gl.fssd.department.Department;
-public class HrDepartment extends Department {
+import com.gl.fssd.department.SuperDepartment;
+public class HrDepartment extends SuperDepartment {
    /**
     * The strDeptName to use to store the department name
     */
-    public String strDeptName = " HR Department ";
+    private String strDeptName = " HR Department ";
     /**
     * The strTodaysWork to use to store the todays work
     */
-    public String strTodaysWork = " Fill today’s timesheet and mark your attendance ";
+    private String strTodaysWork = " Fill today’s timesheet and mark your attendance ";
     /**
     * The strWorkDeadLine to use to store the work dead line 
     */
-    public String strWorkDeadLine = " Complete by EOD ";
+    private String strWorkDeadLine = " Complete by EOD ";
     /**
     * The strActivity to use to store the technical stack information
     */
-    public String strActivity = " team Lunch ";
+    private String strActivity = " team Lunch ";
     /** 
     * Class constructor.
     */
